@@ -1,0 +1,12 @@
+class CfgFunctions
+{
+	class tts
+	{
+		#include "scripts\tts_optre\hevPod_functions.hpp"
+	};
+};
+
+class CfgSounds
+{
+	#include "scripts\tts_optre\soundDefinitions.hpp"
+};

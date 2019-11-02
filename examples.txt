@@ -1,0 +1,5 @@
+//Lifeboat
+[lifeboat_1, 1000, true, true] spawn tts_fnc_lifeboat_initLifeboat; 
+
+//HEVs
+[[HEV_1, HEV_2, HEV_3, HEV_4, HEV_5, HEV_6, HEV_7, HEV_8, HEV_9, HEV_10], "dropMarker", 8000, 50, true] spawn tts_fnc_HEV_initHEV;
