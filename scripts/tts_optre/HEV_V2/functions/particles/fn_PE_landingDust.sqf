@@ -61,7 +61,7 @@ _particle setParticleParams [
 	"", //Animation name
 	"Billboard", // 'Billboard' or 'SpaceObject'
 	1, //Timer period
-	3, //Particle lifetime
+	8, //Particle lifetime
 	[0,0,0], //Array as relative position of emmission to particle source
 	[0, 0, 0], //Move velocity of particles [x,y,z]
 	1, //Rotational velocity of particles

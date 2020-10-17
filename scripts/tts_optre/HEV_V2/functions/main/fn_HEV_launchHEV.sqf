@@ -67,14 +67,14 @@ _HEV setVelocity [0, 0, -15];
 	_CHUTE_HEIGHT = _this select 1;
 	
 	while {((getPosATL _HEV) select 2) > _CHUTE_HEIGHT} do {
-		if (((velocity _HEV) select 2) < -150) then {
+		//if (((velocity _HEV) select 2) < -150) then {
 			_xVel = (velocity _HEV) select 0;
 			_yVel = (velocity _HEV) select 1;
 			
 			_HEV setVelocity [_xVel, _yVel, -145];
-		};
+		//};
 		
-		sleep 0.1;
+		sleep 0.01;
 	};
 };
 

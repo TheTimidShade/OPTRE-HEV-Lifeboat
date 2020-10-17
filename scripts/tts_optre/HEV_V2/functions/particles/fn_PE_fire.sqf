@@ -151,8 +151,8 @@ _particle_2 setParticleParams [
 
 _particle_2 setDropInterval 0.01;
 
-_particle attachTo [_sourceObj, [0,0,-5]];
-_particle_2 attachTo [_sourceObj, [0,0,-5]];
+_particle attachTo [_sourceObj, [0,0,-7]];
+_particle_2 attachTo [_sourceObj, [0,0,-7]];
 
 waitUntil {((getPosATL _sourceObj) select 2) < (_startHeight * 0.5)};
 
