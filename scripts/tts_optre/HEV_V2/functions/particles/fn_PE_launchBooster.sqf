@@ -145,8 +145,8 @@ _particle_2 setParticleParams [
 
 _particle_2 setDropInterval 0.01;
 
-_particle attachTo [_sourceObj, [0,-0.3,-2.5]];
-_particle_2 attachTo [_sourceObj, [0,-0.3,-2.5]];
+_particle attachTo [_sourceObj, [0,-0.3,0.6]];
+_particle_2 attachTo [_sourceObj, [0,-0.3,0.6]];
 
 sleep 10;
 

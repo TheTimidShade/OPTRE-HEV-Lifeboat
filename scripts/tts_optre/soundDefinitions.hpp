@@ -26,7 +26,7 @@ class engine_boost
 class reentry_loop
 {
 	name = "reentry_loop";
-	sound[] = {"\scripts\tts_optre\sounds\reentryloop.ogg", db+12, 1};
+	sound[] = {"\scripts\tts_optre\sounds\reentryloop.ogg", db+8, 1};
 	titles[] = {};
 };
 

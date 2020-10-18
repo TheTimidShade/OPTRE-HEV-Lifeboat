@@ -3,7 +3,7 @@
 _HEV = _this select 0;
 	
 _chute = "OPTRE_HEV_Chute" createVehicle [0,0,0]; 
-_chute attachTo [_HEV, [0,-0.2,0.961]]; // 1.961 starting z
+_chute attachTo [_HEV, [0,-0.2,1.961]];
 	
 _chute animate ["wing1_rotation",1];
 _chute animate ["wing2_rotation",1];
@@ -24,14 +24,14 @@ _chute animate ["wing4_rotation",0];
 	
 //Slow down due to chute
 while {((getPosATL _HEV) select 2) > 30} do {
-	//if (((velocity _HEV) select 2) < -80) then {
+	if (((velocity _HEV) select 2) < -80) then {
 		_xVel = (velocity _HEV) select 0;
 		_yVel = (velocity _HEV) select 1;
 			
 		_HEV setVelocity [_xVel, _yVel, -80];
-	//};
+	};
 		
-	sleep 0.01;
+	sleep 0.1;
 };
 	
 waitUntil {((getPosATL _HEV) select 2) < 30};
